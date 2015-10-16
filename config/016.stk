@@ -29,8 +29,8 @@ dimensions:
    cell length 0.003976e6, width 0.005922e6;
 
 stack:
-   die DIE1 DIE floorplan "tests/fixtures/008.flp";
-   die DIE2 DIE floorplan "tests/fixtures/008.flp";
+   die DIE1 DIE floorplan "config/008.flp";
+   die DIE2 DIE floorplan "config/008.flp";
 
 solver:
    steady;
