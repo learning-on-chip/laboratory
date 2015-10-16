@@ -1,0 +1,6 @@
+[submodule "workload"]
+	path = workload
+	url = https://github.com/learning-on-chip/workload
+[submodule "traffic"]
+	path = traffic
+	url = https://github.com/learning-on-chip/traffic
