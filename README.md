@@ -10,7 +10,7 @@ Clone:
 git clone https://github.com/learning-on-chip/laboratory.git --recursive
 ```
 
-## Contributing
+## Contribution
 
 1. Fork the project.
 2. Implement your idea.
