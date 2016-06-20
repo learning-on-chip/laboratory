@@ -1,16 +1,3 @@
 #!/bin/bash
 
-ROOT=${PWD}
-
-TOOLBOX_ROOT=${ROOT}/toolbox
-BINARY_ROOT=${TOOLBOX_ROOT}/bin
-LIBRARY_ROOT=${TOOLBOX_ROOT}/lib
-
-PATH="${BINARY_ROOT}:${PATH}"
-if [ `uname` == 'Darwin' ]; then
-  DYLD_LIBRARY_PATH="${LIBRARY_ROOT}:${DYLD_LIBRARY_PATH}"
-else
-  LD_LIBRARY_PATH="${LIBRARY_ROOT}:${LD_LIBRARY_PATH}"
-fi
-
-"$@"
+toolbox/run $@
