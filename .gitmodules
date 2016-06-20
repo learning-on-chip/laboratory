@@ -1,9 +1,9 @@
 [submodule "workload"]
 	path = reference/workload
-	url = https://github.com/learning-on-chip/workload
+	url = https://github.com/learning-on-chip/workload.git
 [submodule "traffic"]
 	path = reference/traffic
-	url = https://github.com/learning-on-chip/traffic
+	url = https://github.com/learning-on-chip/traffic.git
 [submodule "toolbox"]
 	path = toolbox
 	url = https://github.com/learning-on-chip/toolbox.git
